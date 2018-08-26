@@ -1,6 +1,7 @@
 #### To run an application 
 - Install docker
 - `docker-compose up`
+- `docker-compose exec app php artisan migrate --seed`
 - `docker-compose exec app php artisan serve`
 
 #### Steps followed for creating and dockerizing project <https://medium.com/@shakyShane/laravel-docker-part-1-setup-for-development-e3daaefaf3c>
